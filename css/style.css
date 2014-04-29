@@ -30,3 +30,13 @@ body{
 .robber{
     background: url('../images/bank-robber.png') no-repeat scroll center center #000000;
 }
+
+.no-padding{
+	padding:0;
+}
+
+.no-padding>h1{
+	text-align:center;
+	color:#2481BA;
+	font-weight:bold;
+}
