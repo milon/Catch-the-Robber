@@ -1,0 +1,32 @@
+/** stylesheet **/
+body{
+    padding: 5px;
+}
+
+.white{
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #000000;
+    float: left;
+    height: 80px;
+    margin-bottom: 1px;
+    margin-right: 1px;
+    width: 12%;
+}
+
+.black{
+    background: none repeat scroll 0 0 #000000;
+    border: 1px solid #000000;
+    float: left;
+    height: 80px;
+    margin-bottom: 1px;
+    margin-right: 1px;
+    width: 12%;
+}
+
+.cop{
+    background: url('../images/cop.png') no-repeat scroll center center #000000;
+}
+
+.robber{
+    background: url('../images/bank-robber.png') no-repeat scroll center center #000000;
+}
