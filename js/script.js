@@ -8,6 +8,7 @@ $(function(){		//self invoking function, check if the page is fully loaded, all 
     message.text('Now Turn Cop');	
 
     var cop_selected = 0;	//flag for checking, if a cop is selected or not
+	var cop_selection = 'cop';
     var $cop;	//for storing a clicked cop
 
     $('.black').on('click', function(){		//if clicked on black grid
@@ -15,6 +16,7 @@ $(function(){		//self invoking function, check if the page is fully loaded, all 
         if ($(this).hasClass('cop')) {
             $cop = $(this);		//store cop's current position 
             cop_selected = 1;	//change the flag, make a cop is selected
+			cop_selection = $(this).attr('class').split(' ')[3];
         }
 
 		//if cop is selected already and for the second click on black grid, the grid has no robber or cop
